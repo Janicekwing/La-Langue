@@ -1,0 +1,3 @@
+[submodule "LiveLearning"]
+	path = LiveLearning
+	url = git:https://github.com/Janicekwing/La-Langue.git
