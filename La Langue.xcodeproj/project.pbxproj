@@ -18,6 +18,7 @@
 		F0609C1A2197368B00B16A58 /* LiveLearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0609C192197368B00B16A58 /* LiveLearningTests.swift */; };
 		F0609C252197368B00B16A58 /* LiveLearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0609C242197368B00B16A58 /* LiveLearningUITests.swift */; };
 		F0C61E61219BEE3F0044CC89 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0C61E60219BEE3F0044CC89 /* GoogleService-Info.plist */; };
+		F0E890D9219FDE0600721128 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E890D8219FDE0600721128 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		F0609C242197368B00B16A58 /* LiveLearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveLearningUITests.swift; sourceTree = "<group>"; };
 		F0609C262197368B00B16A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0C61E60219BEE3F0044CC89 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F0E890D8219FDE0600721128 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = LiveLearning/LoginViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 		F0609C032197368800B16A58 /* LiveLearning */ = {
 			isa = PBXGroup;
 			children = (
+				F0E890D7219FDDD100721128 /* Controller */,
 				F0609C042197368800B16A58 /* AppDelegate.swift */,
 				F0609C062197368800B16A58 /* ViewController.swift */,
 				F0609C082197368800B16A58 /* Main.storyboard */,
@@ -166,6 +169,15 @@
 				F0609C262197368B00B16A58 /* Info.plist */,
 			);
 			path = LiveLearningUITests;
+			sourceTree = "<group>";
+		};
+		F0E890D7219FDDD100721128 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F0E890D8219FDE0600721128 /* LoginViewController.swift */,
+			);
+			name = Controller;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -402,6 +414,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0E890D9219FDE0600721128 /* LoginViewController.swift in Sources */,
 				F0609C072197368800B16A58 /* ViewController.swift in Sources */,
 				F0609C052197368800B16A58 /* AppDelegate.swift in Sources */,
 			);
