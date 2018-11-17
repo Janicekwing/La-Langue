@@ -18,6 +18,8 @@ target 'LiveLearning' do
 
   end
 
+  pod 'Firebase/Database'
   pod 'Firebase/Core'
   pod 'FirebaseUI/Auth'
+  pod 'Firebase/Storage'
 end
