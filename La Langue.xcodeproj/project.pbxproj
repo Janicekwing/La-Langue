@@ -143,7 +143,6 @@
 			children = (
 				F0E890D7219FDDD100721128 /* Controller */,
 				F0609C042197368800B16A58 /* AppDelegate.swift */,
-				F0609C062197368800B16A58 /* ViewController.swift */,
 				F0609C082197368800B16A58 /* Main.storyboard */,
 				F0609C0B2197368B00B16A58 /* Assets.xcassets */,
 				F0609C0D2197368B00B16A58 /* LaunchScreen.storyboard */,
@@ -174,6 +173,7 @@
 		F0E890D7219FDDD100721128 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F0609C062197368800B16A58 /* ViewController.swift */,
 				F0E890D8219FDE0600721128 /* LoginViewController.swift */,
 			);
 			name = Controller;
